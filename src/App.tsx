@@ -13,6 +13,7 @@ interface Perfume {
     fondo: string[];
   };
   descripcion: string;
+  fragancia_referencia: string; 
 }
 
 interface CartItem extends Perfume {
@@ -48,8 +49,9 @@ function App() {
       notas: {
         salida: ['Canela', 'Manzana', 'Lavanda'],
         corazon: ['Jazmín', 'Rosa', 'Pachulí'],
-        fondo: ['Ámbar', 'Vainilla', 'Madera de Cedro']
+        fondo: ['Ámbar', 'Vainilla', 'Madera de Cedro'],
       },
+      fragancia_referencia: "-",
       descripcion: 'Una fragancia fresca y energética perfecta para el día. Combina notas frutales con un fondo amaderado.'
     },
     {
@@ -63,6 +65,7 @@ function App() {
         corazon: ['Iris', 'Violeta', 'Ámbar'],
         fondo: ['Vainilla', 'Haba Tonka', 'Sándalo']
       },
+      fragancia_referencia: "-",
       descripcion: 'Una fragancia seductora y elegante para la noche. Notas orientales y especiadas.'
     },
     {
@@ -76,6 +79,7 @@ function App() {
         corazon: ['Jazmín', 'Lirio del Valle', 'Magnolia'],
         fondo: ['Almizcle', 'Ámbar', 'Vainilla']
       },
+      fragancia_referencia: "Poison Girl - Dior",
       descripcion: 'Una composición floral moderna con un toque frutal. Ideal para ocasiones especiales.'
     },
     {
@@ -89,6 +93,7 @@ function App() {
         corazon: ['Jazmín', 'Flor de Azahar', 'Ylang-Ylang'],
         fondo: ['Almizcle Blanco', 'Vainilla', 'Sándalo']
       },
+      fragancia_referencia: "Mark Jacobs - PERFECT INTENSE",
       descripcion: '  Aroma dulce y afrutado, vibrante y alegre, perfecto para mujeres modernas.'
     },
     {
@@ -102,6 +107,7 @@ function App() {
         corazon: ['Flor de Azahar', 'Jazmín', 'Gardenia'],
         fondo: ['Ámbar', 'Vainilla', 'Almizcle']
       },
+      fragancia_referencia: "FAME - Paco Rabanne",
       descripcion: 'Una explosión cítrica y refrescante con un fondo dulce y amaderado.'
     },
     {
@@ -115,6 +121,7 @@ function App() {
         corazon: ['Incienso', 'Cedro', 'Vetiver'],
         fondo: ['Cuero', 'Oud', 'Ámbar']
       },
+      fragancia_referencia: "Sauvage - Dior",
       descripcion: 'Una fragancia intensa y misteriosa con notas orientales y especiadas.'
     },
     {
@@ -128,6 +135,7 @@ function App() {
         corazon: ['Incienso', 'Cedro', 'Vetiver'],
         fondo: ['Cuero', 'Oud', 'Ámbar']
       },
+      fragancia_referencia: "Le Beau - Jean Paul Galtier",
       descripcion: 'Perfume cálido y especiado, exótico y masculino, ideal para aventureros.'
     },
     {
@@ -141,6 +149,7 @@ function App() {
         corazon: ['Caramelo efervescente de fresa', 'Gardenia'],
         fondo: ['Vainilla', 'ámbar', 'sándalo']
       },
+      fragancia_referencia: "Candy - Prada",
       descripcion: 'Perfume juvenil y goloso, con notas de caramelo y frutas, ideal para un toque dulce.'
     },
     {
@@ -154,6 +163,7 @@ function App() {
         corazon: ['Nardos', 'jazmín sambac', 'rosa de Bulgaria'],
         fondo: ['Haba tonka', 'cacao', 'almizcle']
       },
+      fragancia_referencia: "Good Girl - Carolina Herrera",
       descripcion: 'Perfume floral y afrutado, con una mezcla sensual y sofisticada, ideal para mujeres seguras y modernas.'
     },
       {
@@ -167,6 +177,7 @@ function App() {
           corazon: ['Jazmín', 'Ylang-ylang', 'Azucena'],
           fondo: ['Ámbar', 'Madera de cachemira', 'Almizcle']
         },
+        fragancia_referencia: "Baccarat Rouge 540 de Maison Francis Kurkdjian",
         descripcion: 'Aroma cálido y especiado, con una sensualidad intensa y misteriosa, perfecto para la noche.'
       },
       {
@@ -180,6 +191,7 @@ function App() {
           corazon: ['Jazmín', 'Iris', 'Rosa'],
           fondo: ['Almizcle blanco', 'Vetiver', 'Vainilla', 'Pachulí']
         },
+        fragancia_referencia: "Chance - Chanel",
         descripcion: 'Perfume fresco y floral, vibrante y alegre, ideal para el día a día con un toque energético.'
       },
       {
@@ -193,6 +205,7 @@ function App() {
           corazon: ['Jazmín', 'Nardos', 'Flor de azahar del naranjo'],
           fondo: ['Ambroxan', 'Vetiver', 'Vainilla', 'Pachulí']
         },
+        fragancia_referencia: " L'Interdit - Givenchy",
         descripcion: 'Aroma floral y envolvente, con una mezcla de notas elegantes, perfecto para un toque refinado y femenino.'
       },
       {
@@ -206,6 +219,7 @@ function App() {
           corazon: ['Flor de melocotón', 'Rosa'],
           fondo: ['Almizcle blanco', 'Amaderadas']
         },
+        fragancia_referencia: "212 VIP Rosé de Carolina Herrera",
         descripcion: 'Fragancia seductora y floral, con un toque de elegancia y feminidad, perfecta para ocasiones especiales.'
       },
       {
@@ -219,6 +233,7 @@ function App() {
           corazon: ['Incienso', 'Cedro', 'Vetiver'],
           fondo: ['Cuero', 'Oud', 'Ámbar']
         },
+        fragancia_referencia: "Libre Yves Saint Laurent",
         descripcion: 'Aroma cálido y especiado, con un toque de misterio y sensualidad envolvente, ideal para la noche.'
       },
       {
@@ -232,6 +247,7 @@ function App() {
           corazon: ['Incienso', 'Cedro', 'Vetiver'],
           fondo: ['Cuero', 'Oud', 'Ámbar']
         },
+        fragancia_referencia: "Olympea Blossom - Paco Rabanne",
         descripcion: 'Fragancia fresca y floral, ligera y delicada, ideal para quienes buscan un perfume suave y natural.'
       },
       {
@@ -245,6 +261,7 @@ function App() {
           corazon: ['Incienso', 'Cedro', 'Vetiver'],
           fondo: ['Cuero', 'Oud', 'Ámbar']
         },
+        fragancia_referencia: "Bad Boy de Carolina Herrera",
         descripcion: 'Fragancia amaderada y fresca, con notas masculinas y sofisticadas, ideal para hombres de carácter fuerte.'
       },
     
@@ -500,6 +517,14 @@ function App() {
             </div>
             <p className="text-gray-700 mb-6">{selectedPerfume.descripcion}</p>
             <div className="space-y-4">
+            <div>
+                <h4 className="text-lg font-semibold text-purple-600 mb-2">Fragancia Referencia</h4>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1 bg-red-100 text-black-700 rounded-full text-sm">
+                    {selectedPerfume.fragancia_referencia}
+                  </span>
+               </div>
+              </div>
               <div>
                 <h4 className="text-lg font-semibold text-purple-600 mb-2">Notas de Salida</h4>
                 <div className="flex flex-wrap gap-2">
