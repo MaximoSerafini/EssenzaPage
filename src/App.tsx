@@ -57,7 +57,7 @@ function App() {
       marca: 'Afnan',
       nombre: '9PM 100 ml EDP',
       imagen: 'https://i.imgur.com/W2NpHZp.png',
-      precio: 70200,
+      precio: 60000,
       notas: {
         salida: ['Lavanda', 'Bergamota', 'Cardamomo'],
         corazon: ['Iris', 'Violeta', 'Ámbar'],
