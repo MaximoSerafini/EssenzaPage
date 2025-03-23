@@ -42,7 +42,7 @@ function App() {
     {
       id: 1,
       marca: 'Afnan',
-      nombre: '9AM',
+      nombre: '9AM 100 ml EDP',
       imagen: 'https://i.imgur.com/QegT8hJ.png',
       precio: 58000,
       notas: {
@@ -55,7 +55,7 @@ function App() {
     {
       id: 2,
       marca: 'Afnan',
-      nombre: '9PM',
+      nombre: '9PM 100 ml EDP',
       imagen: 'https://i.imgur.com/W2NpHZp.png',
       precio: 70200,
       notas: {
@@ -68,7 +68,7 @@ function App() {
     {
       id: 3,
       marca: 'Lattafa',
-      nombre: 'Yara Rosa',
+      nombre: 'Yara Rosa 100 ml EDP',
       imagen: 'https://i.imgur.com/UXMrkZI.png',
       precio: 45700,
       notas: {
@@ -81,7 +81,7 @@ function App() {
     {
       id: 4,
       marca: 'Lattafa',
-      nombre: 'Yara Moi Blanco',
+      nombre: 'Yara Moi Blanco 100 ml EDP',
       imagen: 'https://i.imgur.com/3aXedHj.png',
       precio: 41200,
       notas: {
@@ -94,7 +94,7 @@ function App() {
     {
       id: 5,
       marca: 'Lattafa',
-      nombre: 'Yara Tous Naranja',
+      nombre: 'Yara Tous Naranja 100 ml EDP',
       imagen: 'https://i.imgur.com/UrsFcrA.png',
       precio: 41200,
       notas: {
@@ -107,7 +107,7 @@ function App() {
     {
       id: 6,
       marca: 'Lattafa',
-      nombre: 'Asad Negro',
+      nombre: 'Asad Negro 100 ml EDP',
       imagen: 'https://i.imgur.com/9o3ZSTm.png',
       precio: 44600,
       notas: {
@@ -120,7 +120,7 @@ function App() {
     {
       id: 7,
       marca: 'Lattafa',
-      nombre: 'Asad Zanzibat',
+      nombre: 'Asad Zanzibat 100 ml EDP',
       imagen: 'https://i.imgur.com/r8XEYCM.png',
       precio: 41200,
       notas: {
@@ -133,7 +133,7 @@ function App() {
     {
       id: 8,
       marca: 'Lattafa',
-      nombre: 'Yara Candy Rosa',
+      nombre: 'Yara Candy Rosa 100 ml EDP',
       imagen: 'https://i.imgur.com/QZQKJdC.png',
       precio: 41200,
       notas: {
@@ -146,7 +146,7 @@ function App() {
     {
       id: 9,
       marca: 'Maison Alhambra',
-      nombre: 'B.A.D. FEMME',
+      nombre: 'B.A.D. FEMME 100 ml EDP',
       imagen: 'https://i.imgur.com/PCRlPCR.png',
       precio: 37600,
       notas: {
@@ -159,7 +159,7 @@ function App() {
       {
         id: 10,
         marca: 'Maison Alhambra',
-        nombre: 'La Rouge Baroque',
+        nombre: 'La Rouge Baroque 100 ml EDP',
         imagen: 'https://i.imgur.com/DS9MbX2.png',
         precio: 31900,
         notas: {
@@ -172,7 +172,7 @@ function App() {
       {
         id: 11,
         marca: 'Maison Alhambra',
-        nombre: 'Chants Tenderina',
+        nombre: 'Chants Tenderina 100 ml EDP',
         imagen: 'https://i.imgur.com/BtgmesR.png',
         precio: 37600,
         notas: {
@@ -185,7 +185,7 @@ function App() {
       {
         id: 12,
         marca: 'Maison Alhambra',
-        nombre: 'L´Intrude',
+        nombre: 'L´Intrude 100 ml EDP',
         imagen: 'https://i.imgur.com/ZPyeM6o.png',
         precio: 36000,
         notas: {
@@ -198,7 +198,7 @@ function App() {
       {
         id: 13,
         marca: 'Maison Alhambra',
-        nombre: 'Rose Seduction VIP',
+        nombre: 'Rose Seduction VIP 100 ml EDP',
         imagen: 'https://i.imgur.com/paX9V3Q.png',
         precio: 32200,
         notas: {
@@ -211,7 +211,7 @@ function App() {
       {
         id: 14,
         marca: 'Maison Alhambra',
-        nombre: 'Loine',
+        nombre: 'Loine 100 ml EDP',
         imagen: 'https://i.imgur.com/MOHX5Gy.png',
         precio: 28700,
         notas: {
@@ -224,7 +224,7 @@ function App() {
       {
         id: 15,
         marca: 'Maison Alhambra',
-        nombre: 'Olivia Blossom',
+        nombre: 'Olivia Blossom 100 ml EDP',
         imagen: 'https://i.imgur.com/qWjeSqi.png',
         precio: 30500,
         notas: {
@@ -237,7 +237,7 @@ function App() {
       {
         id: 16,
         marca: 'Maison Alhambra',
-        nombre: 'B.A.D. HOMME',
+        nombre: 'B.A.D. HOMME 100 ml EDP',
         imagen: 'https://i.imgur.com/12GSiRa.png',
         precio: 35600,
         notas: {
