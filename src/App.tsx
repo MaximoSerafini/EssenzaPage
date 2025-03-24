@@ -69,20 +69,6 @@ function App() {
       descripcion: 'Una fragancia seductora y elegante para la noche. Notas orientales y especiadas.'
     },
     {
-      id: 3,
-      marca: 'Lattafa',
-      nombre: 'Yara Rosa 100 ml EDP',
-      imagen: 'https://i.imgur.com/UXMrkZI.png',
-      precio: 45700,
-      notas: {
-        salida: ['Rosa Damascena', 'Peonía', 'Frambuesa'],
-        corazon: ['Jazmín', 'Lirio del Valle', 'Magnolia'],
-        fondo: ['Almizcle', 'Ámbar', 'Vainilla']
-      },
-      fragancia_referencia: "Poison Girl - Dior",
-      descripcion: 'Una composición floral moderna con un toque frutal. Ideal para ocasiones especiales.'
-    },
-    {
       id: 4,
       marca: 'Lattafa',
       nombre: 'Yara Moi Blanco 100 ml EDP',
@@ -193,6 +179,20 @@ function App() {
         },
         fragancia_referencia: "Libre Yves Saint Laurent",
         descripcion: 'Aroma cálido y especiado, con un toque de misterio y sensualidad envolvente, ideal para la noche.'
+      },
+      {
+        id: 15,
+        marca: 'Maison Alhambra',
+        nombre: 'Olivia Blossom 100 ml EDP',
+        imagen: 'https://i.imgur.com/qWjeSqi.png',
+        precio: 30500,
+        notas: {
+          salida: ['Pimienta Negra', 'Cardamomo', 'Bergamota'],
+          corazon: ['Incienso', 'Cedro', 'Vetiver'],
+          fondo: ['Cuero', 'Oud', 'Ámbar']
+        },
+        fragancia_referencia: "Olympea Blossom - Paco Rabanne",
+        descripcion: 'Fragancia fresca y floral, ligera y delicada, ideal para quienes buscan un perfume suave y natural.'
       },
       {
         id: 16,
