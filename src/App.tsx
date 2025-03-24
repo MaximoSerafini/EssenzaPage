@@ -111,34 +111,6 @@ function App() {
       descripcion: 'Una explosión cítrica y refrescante con un fondo dulce y amaderado.'
     },
     {
-      id: 6,
-      marca: 'Lattafa',
-      nombre: 'Asad Negro 100 ml EDP',
-      imagen: 'https://i.imgur.com/9o3ZSTm.png',
-      precio: 44600,
-      notas: {
-        salida: ['Pimienta Negra', 'Cardamomo', 'Bergamota'],
-        corazon: ['Incienso', 'Cedro', 'Vetiver'],
-        fondo: ['Cuero', 'Oud', 'Ámbar']
-      },
-      fragancia_referencia: "Sauvage - Dior",
-      descripcion: 'Una fragancia intensa y misteriosa con notas orientales y especiadas.'
-    },
-    {
-      id: 7,
-      marca: 'Lattafa',
-      nombre: 'Asad Zanzibat 100 ml EDP',
-      imagen: 'https://i.imgur.com/r8XEYCM.png',
-      precio: 41200,
-      notas: {
-        salida: ['Pimienta Negra', 'Cardamomo', 'Bergamota'],
-        corazon: ['Incienso', 'Cedro', 'Vetiver'],
-        fondo: ['Cuero', 'Oud', 'Ámbar']
-      },
-      fragancia_referencia: "Le Beau - Jean Paul Galtier",
-      descripcion: 'Perfume cálido y especiado, exótico y masculino, ideal para aventureros.'
-    },
-    {
       id: 8,
       marca: 'Lattafa',
       nombre: 'Yara Candy Rosa 100 ml EDP',
@@ -166,20 +138,6 @@ function App() {
       fragancia_referencia: "Good Girl - Carolina Herrera",
       descripcion: 'Perfume floral y afrutado, con una mezcla sensual y sofisticada, ideal para mujeres seguras y modernas.'
     },
-      {
-        id: 10,
-        marca: 'Maison Alhambra',
-        nombre: 'La Rouge Baroque 100 ml EDP',
-        imagen: 'https://i.imgur.com/DS9MbX2.png',
-        precio: 31900,
-        notas: {
-          salida: ['Azafrán', 'Pera', 'Mandarina'],
-          corazon: ['Jazmín', 'Ylang-ylang', 'Azucena'],
-          fondo: ['Ámbar', 'Madera de cachemira', 'Almizcle']
-        },
-        fragancia_referencia: "Baccarat Rouge 540 de Maison Francis Kurkdjian",
-        descripcion: 'Aroma cálido y especiado, con una sensualidad intensa y misteriosa, perfecto para la noche.'
-      },
       {
         id: 11,
         marca: 'Maison Alhambra',
@@ -235,20 +193,6 @@ function App() {
         },
         fragancia_referencia: "Libre Yves Saint Laurent",
         descripcion: 'Aroma cálido y especiado, con un toque de misterio y sensualidad envolvente, ideal para la noche.'
-      },
-      {
-        id: 15,
-        marca: 'Maison Alhambra',
-        nombre: 'Olivia Blossom 100 ml EDP',
-        imagen: 'https://i.imgur.com/qWjeSqi.png',
-        precio: 30500,
-        notas: {
-          salida: ['Pimienta Negra', 'Cardamomo', 'Bergamota'],
-          corazon: ['Incienso', 'Cedro', 'Vetiver'],
-          fondo: ['Cuero', 'Oud', 'Ámbar']
-        },
-        fragancia_referencia: "Olympea Blossom - Paco Rabanne",
-        descripcion: 'Fragancia fresca y floral, ligera y delicada, ideal para quienes buscan un perfume suave y natural.'
       },
       {
         id: 16,
