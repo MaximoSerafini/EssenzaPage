@@ -55,20 +55,6 @@ function App() {
       descripcion: 'Una fragancia fresca y energética perfecta para el día. Combina notas frutales con un fondo amaderado.'
     },
     {
-      id: 2,
-      marca: 'Afnan',
-      nombre: '9PM 100 ml EDP',
-      imagen: 'https://i.imgur.com/W2NpHZp.png',
-      precio: 60000,
-      notas: {
-        salida: ['Lavanda', 'Bergamota', 'Cardamomo'],
-        corazon: ['Iris', 'Violeta', 'Ámbar'],
-        fondo: ['Vainilla', 'Haba Tonka', 'Sándalo']
-      },
-      fragancia_referencia: "-",
-      descripcion: 'Una fragancia seductora y elegante para la noche. Notas orientales y especiadas.'
-    },
-    {
       id: 4,
       marca: 'Lattafa',
       nombre: 'Yara Moi Blanco 100 ml EDP',
