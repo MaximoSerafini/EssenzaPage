@@ -41,20 +41,6 @@ function App() {
 
   const perfumes: Perfume[] = [
     {
-      id: 1,
-      marca: 'Afnan',
-      nombre: '9AM 100 ml EDP',
-      imagen: 'https://i.imgur.com/QegT8hJ.png',
-      precio: 58000,
-      notas: {
-        salida: ['Canela', 'Manzana', 'Lavanda'],
-        corazon: ['Jazmín', 'Rosa', 'Pachulí'],
-        fondo: ['Ámbar', 'Vainilla', 'Madera de Cedro'],
-      },
-      fragancia_referencia: "-",
-      descripcion: 'Una fragancia fresca y energética perfecta para el día. Combina notas frutales con un fondo amaderado.'
-    },
-    {
       id: 4,
       marca: 'Lattafa',
       nombre: 'Yara Moi Blanco 100 ml EDP',
