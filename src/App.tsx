@@ -97,6 +97,20 @@ function App() {
       descripcion: 'Perfume juvenil y goloso, con notas de caramelo y frutas, ideal para un toque dulce.'
     },
     {
+      id: 8,
+      marca: "Lattafa",
+      nombre: "Asad Negro 100 ml EDP",
+      imagen: "https://i.imgur.com/9o3ZSTm.png",
+      precio: 44600,
+      notas: {
+        salida: ["Grosellas negras", "Mandarina verde", "Bergamota"],
+        corazon: ["Caramelo", "efervescente de fresa", "Gardenia", "Jazmín"],
+        fondo: ["Vainilla", "Ámbar", "Sándalo, Almizcle"]
+      },
+      fragancia_referencia: "Dior - Sauvage",
+      descripcion: "Perfume dulce y vibrante con toques afrutados y acaramelados, ideal para quienes buscan una fragancia juvenil y envolvente."
+    },
+    {
       id: 9,
       marca: 'Maison Alhambra',
       nombre: 'B.A.D. FEMME 100 ml EDP',
@@ -137,20 +151,6 @@ function App() {
         },
         fragancia_referencia: " L'Interdit - Givenchy",
         descripcion: 'Aroma floral y envolvente, con una mezcla de notas elegantes, perfecto para un toque refinado y femenino.'
-      },
-      {
-        id: 13,
-        marca: 'Maison Alhambra',
-        nombre: 'Rose Seduction VIP 100 ml EDP',
-        imagen: 'https://i.imgur.com/paX9V3Q.png',
-        precio: 32200,
-        notas: {
-          salida: ['Pimienta rosa', 'Champagne Rosé'],
-          corazon: ['Flor de melocotón', 'Rosa'],
-          fondo: ['Almizcle blanco', 'Amaderadas']
-        },
-        fragancia_referencia: "212 VIP Rosé de Carolina Herrera",
-        descripcion: 'Fragancia seductora y floral, con un toque de elegancia y feminidad, perfecta para ocasiones especiales.'
       },
       {
         id: 14,
