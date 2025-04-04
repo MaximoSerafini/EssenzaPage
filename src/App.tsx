@@ -96,34 +96,6 @@ function App() {
       fragancia_referencia: "Dior - Sauvage",
       descripcion: "Perfume dulce y vibrante con toques afrutados y acaramelados, ideal para quienes buscan una fragancia juvenil y envolvente."
     },
-    {
-      id: 9,
-      marca: 'Maison Alhambra',
-      nombre: 'B.A.D. FEMME 100 ml EDP',
-      imagen: 'https://i.imgur.com/PCRlPCR.png',
-      precio: 37600,
-      notas: {
-        salida: ['Bergamota', 'Bergamota', 'café'],
-        corazon: ['Nardos', 'jazmín sambac', 'rosa de Bulgaria'],
-        fondo: ['Haba tonka', 'cacao', 'almizcle']
-      },
-      fragancia_referencia: "Good Girl - Carolina Herrera",
-      descripcion: 'Perfume floral y afrutado, con una mezcla sensual y sofisticada, ideal para mujeres seguras y modernas.'
-    },
-      {
-        id: 11,
-        marca: 'Maison Alhambra',
-        nombre: 'Chants Tenderina 100 ml EDP',
-        imagen: 'https://i.imgur.com/BtgmesR.png',
-        precio: 37600,
-        notas: {
-          salida: ['Bergamota', 'Flor de pomelo', 'Durazno'],
-          corazon: ['Jazmín', 'Iris', 'Rosa'],
-          fondo: ['Almizcle blanco', 'Vetiver', 'Vainilla', 'Pachulí']
-        },
-        fragancia_referencia: "Chance - Chanel",
-        descripcion: 'Perfume fresco y floral, vibrante y alegre, ideal para el día a día con un toque energético.'
-      },
       {
         id: 12,
         marca: 'Maison Alhambra',
