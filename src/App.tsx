@@ -138,20 +138,6 @@ function App() {
         fragancia_referencia: "Olympea Blossom - Paco Rabanne",
         descripcion: 'Fragancia fresca y floral, ligera y delicada, ideal para quienes buscan un perfume suave y natural.'
       },
-      {
-        id: 16,
-        marca: 'Maison Alhambra',
-        nombre: 'B.A.D. HOMME 100 ml EDP',
-        imagen: 'https://i.imgur.com/12GSiRa.png',
-        precio: 35600,
-        notas: {
-          salida: ['Pimienta Negra', 'Cardamomo', 'Bergamota'],
-          corazon: ['Incienso', 'Cedro', 'Vetiver'],
-          fondo: ['Cuero', 'Oud', 'Ámbar']
-        },
-        fragancia_referencia: "Bad Boy de Carolina Herrera",
-        descripcion: 'Fragancia amaderada y fresca, con notas masculinas y sofisticadas, ideal para hombres de carácter fuerte.'
-      },
     
   ];
 
