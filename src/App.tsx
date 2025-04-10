@@ -97,20 +97,6 @@ function App() {
       descripcion: "Perfume dulce y vibrante con toques afrutados y acaramelados, ideal para quienes buscan una fragancia juvenil y envolvente."
     },
       {
-        id: 12,
-        marca: 'Maison Alhambra',
-        nombre: 'L´Intrude 100 ml EDP',
-        imagen: 'https://i.imgur.com/ZPyeM6o.png',
-        precio: 36000,
-        notas: {
-          salida: ['Bergamota', 'Pera'],
-          corazon: ['Jazmín', 'Nardos', 'Flor de azahar del naranjo'],
-          fondo: ['Ambroxan', 'Vetiver', 'Vainilla', 'Pachulí']
-        },
-        fragancia_referencia: " L'Interdit - Givenchy",
-        descripcion: 'Aroma floral y envolvente, con una mezcla de notas elegantes, perfecto para un toque refinado y femenino.'
-      },
-      {
         id: 15,
         marca: 'Maison Alhambra',
         nombre: 'Olivia Blossom 100 ml EDP',
