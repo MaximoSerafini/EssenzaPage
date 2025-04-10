@@ -111,20 +111,6 @@ function App() {
         descripcion: 'Aroma floral y envolvente, con una mezcla de notas elegantes, perfecto para un toque refinado y femenino.'
       },
       {
-        id: 14,
-        marca: 'Maison Alhambra',
-        nombre: 'Loine 100 ml EDP',
-        imagen: 'https://i.imgur.com/MOHX5Gy.png',
-        precio: 28700,
-        notas: {
-          salida: ['Pimienta Negra', 'Cardamomo', 'Bergamota'],
-          corazon: ['Incienso', 'Cedro', 'Vetiver'],
-          fondo: ['Cuero', 'Oud', 'Ámbar']
-        },
-        fragancia_referencia: "Libre Yves Saint Laurent",
-        descripcion: 'Aroma cálido y especiado, con un toque de misterio y sensualidad envolvente, ideal para la noche.'
-      },
-      {
         id: 15,
         marca: 'Maison Alhambra',
         nombre: 'Olivia Blossom 100 ml EDP',
