@@ -40,76 +40,7 @@ function App() {
   }, []);
 
   const perfumes: Perfume[] = [
-    {
-      id: 4,
-      marca: 'Lattafa',
-      nombre: 'Yara Moi Blanco 100 ml EDP',
-      imagen: 'https://i.imgur.com/3aXedHj.png',
-      precio: 41200,
-      notas: {
-        salida: ['Neroli', 'Mandarina', 'Bergamota'],
-        corazon: ['Jazmín', 'Flor de Azahar', 'Ylang-Ylang'],
-        fondo: ['Almizcle Blanco', 'Vainilla', 'Sándalo']
-      },
-      fragancia_referencia: "Mark Jacobs - PERFECT INTENSE",
-      descripcion: '  Aroma dulce y afrutado, vibrante y alegre, perfecto para mujeres modernas.'
-    },
-    {
-      id: 5,
-      marca: 'Lattafa',
-      nombre: 'Yara Tous Naranja 100 ml EDP',
-      imagen: 'https://i.imgur.com/UrsFcrA.png',
-      precio: 41200,
-      notas: {
-        salida: ['Naranja', 'Mandarina', 'Bergamota'],
-        corazon: ['Flor de Azahar', 'Jazmín', 'Gardenia'],
-        fondo: ['Ámbar', 'Vainilla', 'Almizcle']
-      },
-      fragancia_referencia: "FAME - Paco Rabanne",
-      descripcion: 'Una explosión cítrica y refrescante con un fondo dulce y amaderado.'
-    },
-    {
-      id: 8,
-      marca: 'Lattafa',
-      nombre: 'Yara Candy Rosa 100 ml EDP',
-      imagen: 'https://i.imgur.com/QZQKJdC.png',
-      precio: 41200,
-      notas: {
-        salida: ['Grosellas negras', 'Mandarina verde', ''],
-        corazon: ['Caramelo efervescente de fresa', 'Gardenia'],
-        fondo: ['Vainilla', 'ámbar', 'sándalo']
-      },
-      fragancia_referencia: "Candy - Prada",
-      descripcion: 'Perfume juvenil y goloso, con notas de caramelo y frutas, ideal para un toque dulce.'
-    },
-    {
-      id: 8,
-      marca: "Lattafa",
-      nombre: "Asad Negro 100 ml EDP",
-      imagen: "https://i.imgur.com/9o3ZSTm.png",
-      precio: 44600,
-      notas: {
-        salida: ["Grosellas negras", "Mandarina verde", "Bergamota"],
-        corazon: ["Caramelo", "efervescente de fresa", "Gardenia", "Jazmín"],
-        fondo: ["Vainilla", "Ámbar", "Sándalo, Almizcle"]
-      },
-      fragancia_referencia: "Dior - Sauvage",
-      descripcion: "Perfume dulce y vibrante con toques afrutados y acaramelados, ideal para quienes buscan una fragancia juvenil y envolvente."
-    },
-      {
-        id: 15,
-        marca: 'Maison Alhambra',
-        nombre: 'Olivia Blossom 100 ml EDP',
-        imagen: 'https://i.imgur.com/qWjeSqi.png',
-        precio: 30500,
-        notas: {
-          salida: ['Pimienta Negra', 'Cardamomo', 'Bergamota'],
-          corazon: ['Incienso', 'Cedro', 'Vetiver'],
-          fondo: ['Cuero', 'Oud', 'Ámbar']
-        },
-        fragancia_referencia: "Olympea Blossom - Paco Rabanne",
-        descripcion: 'Fragancia fresca y floral, ligera y delicada, ideal para quienes buscan un perfume suave y natural.'
-      },
+   
     
   ];
 
