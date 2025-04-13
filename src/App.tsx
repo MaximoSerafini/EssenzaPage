@@ -40,7 +40,90 @@ function App() {
   }, []);
 
   const perfumes: Perfume[] = [
-   
+    {
+      id: 1,
+      marca: 'Lattafa',
+      nombre: 'Badee Al Oud Sublime 100ml EDP',
+      imagen: 'https://i.imgur.com/6onMEB2.png',
+      precio: 60000,
+      notas: {
+        salida: ['Manzana', 'Lichi', 'Rosa'],
+        corazon: ['ciruela', 'jazmín'],
+        fondo: ['vainila', 'musgo', 'pachulí']
+      },
+      fragancia_referencia: "Eden Juicy Apple",
+      descripcion: 'Es una fragancia de la familia olfativa Amaderada Aromática para Hombres y Mujeres. Esta fragrancia es nueva. Badee Al Oud Sublime se lanzó en 2023.'
+    },
+    {
+      id: 2,
+      marca: 'Lattafa',
+      nombre: 'Noble Blush 100ml EDP',
+      imagen: 'https://i.imgur.com/GfoMEUV.png',
+      precio: 60000,
+      notas: {
+        salida: ['Rose Milk'],
+        corazon: ['Merengue', 'Almendra'],
+        fondo: ['vainilla', 'almizcle', 'sándalo']
+      },
+      fragancia_referencia: "Guidance de Amouage",
+      descripcion: 'Es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres. Esta fragrancia es nueva. Noble Blush se lanzó en 2024.'
+    },
+    {
+      id: 3,
+      marca: 'Afnan',
+      nombre: '9 PM Rebel 100ml EDP',
+      imagen: 'https://i.imgur.com/bW3ss7b.png',
+      precio: 70000,
+      notas: {
+        salida: ['piña','manzana Granny Smith','mandarina'],
+        corazon: ['vainilla','cedro', 'musgo de roble'],
+        fondo: ['ámbar gris', 'madera seca', 'caramelo']
+      },
+      fragancia_referencia: "Ultra Male de Jean Paul Gaultier",
+      descripcion: 'Es una fragancia de la familia olfativa Aromática Frutal para Hombres y Mujeres. Esta fragrancia es nueva. 9 PM Rebel se lanzó en 2024. La Nariz detrás de esta fragrancia es Gaël Montero.'
+    },
+    {
+      id: 4,
+      marca: 'Maison Alhambra',
+      nombre: 'La Vivacité 30 EDP',
+      imagen: 'https://i.imgur.com/NmJ4AFA.png',
+      precio: 20000,
+      notas: {
+        salida: ['grosellas negras','pera'],
+        corazon: ['iris','flor de azahar del naranjo', 'jazmín'],
+        fondo: ['pichulí', 'praliné', 'vainilla']
+      },
+      fragancia_referencia: "La Vie Est Belle de Lancôme",
+      descripcion: 'Es una fragancia de la familia olfativa Floral Frutal para Mujeres. Esta fragrancia es nueva. La Vivacité se lanzó en 2024.'
+    },
+    {
+      id: 5,
+      marca: 'Maison Alhambra',
+      nombre: 'Florence 30 EDP',
+      imagen: 'https://i.imgur.com/ov2EU8o.png',
+      precio: 20000,
+      notas: {
+        salida: ['bergamota','durazno','Frutas rojas'],
+        corazon: ['Corazón son azucena','jazmín', 'rosa'],
+        fondo: ['almizcle', 'pachulí', 'vainilla']
+      },
+      fragancia_referencia: "Valentino Donna de Valentino",
+      descripcion: 'Es una fragancia de la familia olfativa Floral para Mujeres. Florence se lanzó en 2022.'
+    },
+    {
+      id: 16,
+      marca: 'Maison Alhambra',
+      nombre: 'B.A.D. HOMME 30 EDP',
+      imagen: 'https://i.imgur.com/XCBnNQU.png',
+      precio: 20000,
+      notas: {
+        salida: ['Pimienta Negra', 'Cardamomo', 'Bergamota'],
+        corazon: ['Incienso', 'Cedro', 'Vetiver'],
+        fondo: ['Cuero', 'Oud', 'Ámbar']
+      },
+      fragancia_referencia: "Bad Boy de Carolina Herrera",
+      descripcion: 'Fragancia amaderada y fresca, con notas masculinas y sofisticadas, ideal para hombres de carácter fuerte.'
+    },
     
   ];
 
