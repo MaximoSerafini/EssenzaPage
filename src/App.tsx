@@ -166,6 +166,20 @@ function App() {
       fragancia_referencia: "-",
       descripcion: 'Es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Her Confession se lanzó en 2024'
     },
+    {
+      id: 10,
+      marca: 'Lattafa',
+      nombre: 'Haya',
+      imagen: 'https://i.imgur.com/lT4X1j2.png',
+      precio: 60000,
+      notas: {
+        salida: ['champaña', 'fresa','naranja','rosa'],
+        corazon: ['gardenia', 'orquídea de vainilla', 'jazmin'],
+        fondo: ['sándalo', 'ámbar', 'castaña']
+      },
+      fragancia_referencia: "Prada Paradox",
+      descripcion: 'Es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Haya se lanzó en 2022.'
+    },
     
     
   ];
