@@ -111,7 +111,7 @@ function App() {
       descripcion: 'Es una fragancia de la familia olfativa Floral para Mujeres. Florence se lanzó en 2022.'
     },
     {
-      id: 16,
+      id: 6,
       marca: 'Maison Alhambra',
       nombre: 'B.A.D. HOMME 30 EDP',
       imagen: 'https://i.imgur.com/XCBnNQU.png',
@@ -124,6 +124,49 @@ function App() {
       fragancia_referencia: "Bad Boy de Carolina Herrera",
       descripcion: 'Fragancia amaderada y fresca, con notas masculinas y sofisticadas, ideal para hombres de carácter fuerte.'
     },
+    {
+      id: 7,
+      marca: 'Armaf',
+      nombre: 'Club de nuit woman 100ml EDP',
+      imagen: 'https://i.imgur.com/9WSFf35.png',
+      precio: 56000,
+      notas: {
+        salida: ['Naranja', 'Bergamota', 'toronja'],
+        corazon: ['rosa', 'jazmin', 'lichi'],
+        fondo: ['pachulí', 'amizcle', 'vainilla']
+      },
+      fragancia_referencia: "Chanel – Coco Mademoiselle",
+      descripcion: 'Es una fragancia de la familia olfativa Floral Frutal para Mujeres.'
+    },
+    {
+      id: 8,
+      marca: 'Al Haramain',
+      nombre: 'Amber Oud Gold Edition 120ml EDP',
+      imagen: 'https://i.imgur.com/bZlbShZ.png',
+      precio: 90000,
+      notas: {
+        salida: ['Bergamota', 'notas verdes'],
+        corazon: ['notas dulces', 'melón', 'piña'],
+        fondo: ['almizcle', 'vainilla', 'notas amaderadas']
+      },
+      fragancia_referencia: "Bharara King - Bharara y/o Erba Pura - Xerjoff",
+      descripcion: 'Es una fragancia de la familia olfativa Oriental Vainilla para Hombres y Mujeres. Amber Oud Gold Edition se lanzó en 2018.'
+    },
+    {
+      id: 9,
+      marca: 'Lattafa',
+      nombre: 'Her Confession 100ml EDP',
+      imagen: 'https://i.imgur.com/KjScRvk.png',
+      precio: 60000,
+      notas: {
+        salida: ['Mistico', 'canela'],
+        corazon: ['nardos', 'incienso', 'jazmin'],
+        fondo: ['haba tonka', 'vainilla', 'almizcle']
+      },
+      fragancia_referencia: "-",
+      descripcion: 'Es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Her Confession se lanzó en 2024'
+    },
+    
     
   ];
 
