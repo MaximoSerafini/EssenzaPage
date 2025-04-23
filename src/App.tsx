@@ -7,13 +7,14 @@ interface Perfume {
   nombre: string;
   imagen: string;
   precio: number;
+  genero: 'Hombre' | 'Mujer' | 'Unisex';
+  fragancia_referencia?: string;
   notas: {
     salida: string[];
     corazon: string[];
     fondo: string[];
   };
   descripcion: string;
-  fragancia_referencia: string; 
 }
 
 interface CartItem extends Perfume {
@@ -51,6 +52,7 @@ function App() {
         corazon: ['ciruela', 'jazmín'],
         fondo: ['vainila', 'musgo', 'pachulí']
       },
+      genero: 'Mujer',
       fragancia_referencia: "Eden Juicy Apple",
       descripcion: 'Es una fragancia de la familia olfativa Amaderada Aromática para Hombres y Mujeres. Esta fragrancia es nueva. Badee Al Oud Sublime se lanzó en 2023.'
     },
@@ -65,6 +67,7 @@ function App() {
         corazon: ['Merengue', 'Almendra'],
         fondo: ['vainilla', 'almizcle', 'sándalo']
       },
+      genero: 'Mujer',
       fragancia_referencia: "Guidance de Amouage",
       descripcion: 'Es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres. Esta fragrancia es nueva. Noble Blush se lanzó en 2024.'
     },
@@ -79,6 +82,7 @@ function App() {
         corazon: ['vainilla','cedro', 'musgo de roble'],
         fondo: ['ámbar gris', 'madera seca', 'caramelo']
       },
+      genero: 'Hombre',
       fragancia_referencia: "Ultra Male de Jean Paul Gaultier",
       descripcion: 'Es una fragancia de la familia olfativa Aromática Frutal para Hombres y Mujeres. Esta fragrancia es nueva. 9 PM Rebel se lanzó en 2024. La Nariz detrás de esta fragrancia es Gaël Montero.'
     },
@@ -93,6 +97,7 @@ function App() {
         corazon: ['iris','flor de azahar del naranjo', 'jazmín'],
         fondo: ['pichulí', 'praliné', 'vainilla']
       },
+      genero: 'Mujer',
       fragancia_referencia: "La Vie Est Belle de Lancôme",
       descripcion: 'Es una fragancia de la familia olfativa Floral Frutal para Mujeres. Esta fragrancia es nueva. La Vivacité se lanzó en 2024.'
     },
@@ -107,6 +112,7 @@ function App() {
         corazon: ['Corazón son azucena','jazmín', 'rosa'],
         fondo: ['almizcle', 'pachulí', 'vainilla']
       },
+      genero: 'Mujer',
       fragancia_referencia: "Valentino Donna de Valentino",
       descripcion: 'Es una fragancia de la familia olfativa Floral para Mujeres. Florence se lanzó en 2022.'
     },
@@ -121,6 +127,7 @@ function App() {
         corazon: ['Incienso', 'Cedro', 'Vetiver'],
         fondo: ['Cuero', 'Oud', 'Ámbar']
       },
+      genero: 'Hombre',
       fragancia_referencia: "Bad Boy de Carolina Herrera",
       descripcion: 'Fragancia amaderada y fresca, con notas masculinas y sofisticadas, ideal para hombres de carácter fuerte.'
     },
@@ -135,6 +142,7 @@ function App() {
         corazon: ['rosa', 'jazmin', 'lichi'],
         fondo: ['pachulí', 'amizcle', 'vainilla']
       },
+      genero: 'Mujer',
       fragancia_referencia: "Chanel – Coco Mademoiselle",
       descripcion: 'Es una fragancia de la familia olfativa Floral Frutal para Mujeres.'
     },
@@ -149,6 +157,7 @@ function App() {
         corazon: ['notas dulces', 'melón', 'piña'],
         fondo: ['almizcle', 'vainilla', 'notas amaderadas']
       },
+      genero: 'Unisex',
       fragancia_referencia: "Bharara King - Bharara y/o Erba Pura - Xerjoff",
       descripcion: 'Es una fragancia de la familia olfativa Oriental Vainilla para Hombres y Mujeres. Amber Oud Gold Edition se lanzó en 2018.'
     },
@@ -163,6 +172,7 @@ function App() {
         corazon: ['nardos', 'incienso', 'jazmin'],
         fondo: ['haba tonka', 'vainilla', 'almizcle']
       },
+      genero: 'Mujer',
       fragancia_referencia: "-",
       descripcion: 'Es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Her Confession se lanzó en 2024'
     },
@@ -177,13 +187,13 @@ function App() {
         corazon: ['gardenia', 'orquídea de vainilla', 'jazmin'],
         fondo: ['sándalo', 'ámbar', 'castaña']
       },
+      genero: 'Mujer',
       fragancia_referencia: "Prada Paradox",
       descripcion: 'Es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Haya se lanzó en 2022.'
     },
     
     
   ];
-
   const marcas = Array.from(new Set(perfumes.map(p => p.marca)));
 
   const addToCart = (perfume: Perfume) => {
@@ -229,6 +239,17 @@ function App() {
     
     const text = `¡Hola! Me gustaría comprar los siguientes perfumes:\n\n${message}\n\nTotal: $${total.toFixed(2)}`;
     return `https://wa.me/543794800282?text=${encodeURIComponent(text)}`;
+  };
+
+  const getGenderColor = (genero: string) => {
+    switch (genero) {
+      case 'Hombre':
+        return 'bg-blue-100 text-blue-700';
+      case 'Mujer':
+        return 'bg-pink-100 text-pink-700';
+      default:
+        return 'bg-purple-100 text-purple-700';
+    }
   };
 
   if (showHome) {
@@ -384,6 +405,16 @@ function App() {
                   <div>
                     <p className="text-sm text-purple-600 font-medium">{perfume.marca}</p>
                     <h3 className="text-lg font-semibold text-gray-900 mt-1">{perfume.nombre}</h3>
+                    <div className="flex flex-wrap gap-2 mt-2">
+                      <span className={`inline-block px-3 py-1 rounded-full text-xs font-medium ${getGenderColor(perfume.genero)}`}>
+                        {perfume.genero}
+                      </span>
+                      {perfume.fragancia_referencia && (
+                        <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-700">
+                          Inspirado en {perfume.fragancia_referencia}
+                        </span>
+                      )}
+                    </div>
                   </div>
                   <button
                     onClick={() => setSelectedPerfume(perfume)}
@@ -417,6 +448,16 @@ function App() {
               <div>
                 <h2 className="text-2xl font-semibold text-gray-900">{selectedPerfume.marca}</h2>
                 <h3 className="text-xl text-purple-600">{selectedPerfume.nombre}</h3>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  <span className={`inline-block px-3 py-1 rounded-full text-xs font-medium ${getGenderColor(selectedPerfume.genero)}`}>
+                    {selectedPerfume.genero}
+                  </span>
+                  {selectedPerfume.fragancia_referencia && (
+                    <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-700">
+                      Inspirado en {selectedPerfume.fragancia_referencia}
+                    </span>
+                  )}
+                </div>
               </div>
               <button
                 onClick={() => setSelectedPerfume(null)}
@@ -434,14 +475,6 @@ function App() {
             </div>
             <p className="text-gray-700 mb-6">{selectedPerfume.descripcion}</p>
             <div className="space-y-4">
-            <div>
-                <h4 className="text-lg font-semibold text-purple-600 mb-2">Fragancia Referencia</h4>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-red-100 text-black-700 rounded-full text-sm">
-                    {selectedPerfume.fragancia_referencia}
-                  </span>
-               </div>
-              </div>
               <div>
                 <h4 className="text-lg font-semibold text-purple-600 mb-2">Notas de Salida</h4>
                 <div className="flex flex-wrap gap-2">
