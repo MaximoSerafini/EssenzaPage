@@ -15,6 +15,7 @@ interface Perfume {
     fondo: string[];
   };
   descripcion: string;
+  sinDescuento?: boolean;
 }
 
 interface CartItem extends Perfume {
@@ -191,8 +192,71 @@ function App() {
       fragancia_referencia: "Prada Paradox",
       descripcion: 'Es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Haya se lanzó en 2022.'
     },
-    
-    
+    {
+      id: 11,
+      marca: 'Lattafa',
+      nombre: 'BAD HOMMEN',
+      imagen: 'https://i.imgur.com/12GSiRa.png',
+      precio: 29000,
+      notas: {
+        salida: ['Pimienta Negra', 'Cardamomo', 'Bergamota'],
+        corazon: ['Incienso', 'Cedro', 'Vetiver'],
+        fondo: ['Cuero', 'Oud', 'Ámbar']
+      },
+      genero: 'Hombre',
+      fragancia_referencia: "Bad Boy de Carolina Herrera",
+      descripcion: 'Fragancia intensa y sofisticada para hombres modernos.',
+      sinDescuento: true
+    },
+    {
+      id: 12,
+      marca: 'Lattafa',
+      nombre: 'CANDID',
+      imagen: 'https://i.imgur.com/Vom1w9U.png',
+      precio: 34500,
+      notas: {
+        salida: ['Cítricos', 'Manzana'],
+        corazon: ['Rosa', 'Jazmín'],
+        fondo: ['Ámbar', 'Almizcle']
+      },
+      genero: 'Mujer',
+      descripcion: 'Fragancia fresca y elegante, ideal para el día a día.',
+      fragancia_referencia: "Scandal – Jean Paul Gaultier",
+      sinDescuento: true
+    },
+    {
+      id: 14,
+      marca: 'Lattafa',
+      nombre: 'Jean Lowe Inmortal',
+      imagen: 'https://i.imgur.com/WX6tmPh.png',
+      precio: 34500,
+      notas: {
+        salida: ['Bergamota', 'Manzana'],
+        corazon: ['Lavanda', 'Violeta'],
+        fondo: ['Madera', 'Ámbar']
+      },
+      genero: 'Hombre',
+      fragancia_referencia: " L'Immensité – Louis Vuitton",
+      descripcion: 'Fragancia masculina, moderna y duradera.',
+      sinDescuento: true
+    },
+    {
+      id: 15,
+      marca: 'Lattafa',
+      nombre: 'Chants tenderina',
+      imagen: 'https://i.imgur.com/dyoXjzq.png',
+      precio: 28500,
+      notas: {
+        salida: ['Frutas', 'Cítricos'],
+        corazon: ['Rosa', 'Jazmín'],
+        fondo: ['Vainilla', 'Almizcle']
+      },
+      genero: 'Mujer',
+      fragancia_referencia: "Chanel Chance Eau Tendre",
+      descripcion: 'Aroma tierno y delicado, perfecto para ocasiones especiales.',
+      sinDescuento: true
+    },
+
   ];
   const marcas = Array.from(new Set(perfumes.map(p => p.marca)));
 
@@ -230,7 +294,9 @@ function App() {
     return matchesMarca && matchesSearch;
   });
 
-  const total = cartItems.reduce((sum, item) => sum + (item.precio * 0.85 * item.cantidad), 0);
+  const total = cartItems.reduce((sum, item) => 
+    sum + ((item.sinDescuento ? item.precio : item.precio * 0.85) * item.cantidad), 0
+  );
 
   const createWhatsAppLink = () => {
     const message = cartItems.map(item => 
@@ -425,15 +491,23 @@ function App() {
                 </div>
                 <div className="mt-4 flex items-center justify-between">
                   <div>
-                    <span className="text-xl font-bold text-purple-600">
-                      ${(perfume.precio * 0.85).toFixed(0)}
-                    </span>
-                    <span className="text-sm text-gray-400 line-through ml-2">
-                      ${perfume.precio}
-                    </span>
-                    <span className="ml-2 text-green-600 text-xs font-semibold bg-green-100 px-2 py-0.5 rounded">
-                      15% OFF
-                    </span>
+                    {perfume.sinDescuento ? (
+                      <span className="text-xl font-bold text-purple-600">
+                        ${perfume.precio}
+                      </span>
+                    ) : (
+                      <>
+                        <span className="text-xl font-bold text-purple-600">
+                          ${(perfume.precio * 0.85).toFixed(0)}
+                        </span>
+                        <span className="text-sm text-gray-400 line-through ml-2">
+                          ${perfume.precio}
+                        </span>
+                        <span className="ml-2 text-green-600 text-xs font-semibold bg-green-100 px-2 py-0.5 rounded">
+                          15% OFF
+                        </span>
+                      </>
+                    )}
                   </div>
                   <button
                     onClick={() => addToCart(perfume)}
@@ -560,11 +634,17 @@ function App() {
                     <div className="ml-4 flex-1">
                       <h3 className="font-medium text-gray-900">{item.marca} - {item.nombre}</h3>
                       <p className="text-purple-600 font-medium">
-                        ${(item.precio * 0.85).toFixed(0)}
-                        <span className="text-xs text-gray-400 line-through ml-1">${item.precio}</span>
-                        <span className="ml-2 text-green-600 text-xs font-semibold bg-green-100 px-2 py-0.5 rounded">
-                          15% OFF
-                        </span>
+                        {item.sinDescuento ? (
+                          <>${item.precio}</>
+                        ) : (
+                          <>
+                            ${(item.precio * 0.85).toFixed(0)}
+                            <span className="text-xs text-gray-400 line-through ml-1">${item.precio}</span>
+                            <span className="ml-2 text-green-600 text-xs font-semibold bg-green-100 px-2 py-0.5 rounded">
+                              15% OFF
+                            </span>
+                          </>
+                        )}
                       </p>
                       <div className="flex items-center mt-2">
                         <button
