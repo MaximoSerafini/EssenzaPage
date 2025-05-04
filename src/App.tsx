@@ -230,7 +230,7 @@ function App() {
     return matchesMarca && matchesSearch;
   });
 
-  const total = cartItems.reduce((sum, item) => sum + (item.precio * item.cantidad), 0);
+  const total = cartItems.reduce((sum, item) => sum + (item.precio * 0.85 * item.cantidad), 0);
 
   const createWhatsAppLink = () => {
     const message = cartItems.map(item => 
@@ -424,9 +424,17 @@ function App() {
                   </button>
                 </div>
                 <div className="mt-4 flex items-center justify-between">
-                  <span className="text-xl font-bold text-purple-600">
-                    ${perfume.precio}
-                  </span>
+                  <div>
+                    <span className="text-xl font-bold text-purple-600">
+                      ${(perfume.precio * 0.85).toFixed(0)}
+                    </span>
+                    <span className="text-sm text-gray-400 line-through ml-2">
+                      ${perfume.precio}
+                    </span>
+                    <span className="ml-2 text-green-600 text-xs font-semibold bg-green-100 px-2 py-0.5 rounded">
+                      15% OFF
+                    </span>
+                  </div>
                   <button
                     onClick={() => addToCart(perfume)}
                     className="p-2 text-purple-600 hover:text-purple-700 hover:bg-purple-50 rounded-full transition-colors"
@@ -551,7 +559,13 @@ function App() {
                     />
                     <div className="ml-4 flex-1">
                       <h3 className="font-medium text-gray-900">{item.marca} - {item.nombre}</h3>
-                      <p className="text-purple-600 font-medium">${item.precio}</p>
+                      <p className="text-purple-600 font-medium">
+                        ${(item.precio * 0.85).toFixed(0)}
+                        <span className="text-xs text-gray-400 line-through ml-1">${item.precio}</span>
+                        <span className="ml-2 text-green-600 text-xs font-semibold bg-green-100 px-2 py-0.5 rounded">
+                          15% OFF
+                        </span>
+                      </p>
                       <div className="flex items-center mt-2">
                         <button
                           onClick={() => updateQuantity(item.id, item.cantidad - 1)}
