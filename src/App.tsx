@@ -148,21 +148,6 @@ function App() {
       descripcion: 'Es una fragancia de la familia olfativa Floral Frutal para Mujeres.'
     },
     {
-      id: 8,
-      marca: 'Al Haramain',
-      nombre: 'Amber Oud Gold Edition 120ml EDP',
-      imagen: 'https://i.imgur.com/bZlbShZ.png',
-      precio: 90000,
-      notas: {
-        salida: ['Bergamota', 'notas verdes'],
-        corazon: ['notas dulces', 'melón', 'piña'],
-        fondo: ['almizcle', 'vainilla', 'notas amaderadas']
-      },
-      genero: 'Unisex',
-      fragancia_referencia: "Bharara King - Bharara y/o Erba Pura - Xerjoff",
-      descripcion: 'Es una fragancia de la familia olfativa Oriental Vainilla para Hombres y Mujeres. Amber Oud Gold Edition se lanzó en 2018.'
-    },
-    {
       id: 9,
       marca: 'Lattafa',
       nombre: 'Her Confession 100ml EDP',
@@ -191,54 +176,6 @@ function App() {
       genero: 'Mujer',
       fragancia_referencia: "Prada Paradox",
       descripcion: 'Es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Haya se lanzó en 2022.'
-    },
-    {
-      id: 11,
-      marca: 'Lattafa',
-      nombre: 'BAD HOMMEN',
-      imagen: 'https://i.imgur.com/12GSiRa.png',
-      precio: 29000,
-      notas: {
-        salida: ['Pimienta Negra', 'Cardamomo', 'Bergamota'],
-        corazon: ['Incienso', 'Cedro', 'Vetiver'],
-        fondo: ['Cuero', 'Oud', 'Ámbar']
-      },
-      genero: 'Hombre',
-      fragancia_referencia: "Bad Boy de Carolina Herrera",
-      descripcion: 'Fragancia intensa y sofisticada para hombres modernos.',
-      sinDescuento: true
-    },
-    {
-      id: 12,
-      marca: 'Lattafa',
-      nombre: 'CANDID',
-      imagen: 'https://i.imgur.com/Vom1w9U.png',
-      precio: 34500,
-      notas: {
-        salida: ['Cítricos', 'Manzana'],
-        corazon: ['Rosa', 'Jazmín'],
-        fondo: ['Ámbar', 'Almizcle']
-      },
-      genero: 'Mujer',
-      descripcion: 'Fragancia fresca y elegante, ideal para el día a día.',
-      fragancia_referencia: "Scandal – Jean Paul Gaultier",
-      sinDescuento: true
-    },
-    {
-      id: 14,
-      marca: 'Lattafa',
-      nombre: 'Jean Lowe Inmortal',
-      imagen: 'https://i.imgur.com/WX6tmPh.png',
-      precio: 34500,
-      notas: {
-        salida: ['Bergamota', 'Manzana'],
-        corazon: ['Lavanda', 'Violeta'],
-        fondo: ['Madera', 'Ámbar']
-      },
-      genero: 'Hombre',
-      fragancia_referencia: " L'Immensité – Louis Vuitton",
-      descripcion: 'Fragancia masculina, moderna y duradera.',
-      sinDescuento: true
     },
     {
       id: 15,
