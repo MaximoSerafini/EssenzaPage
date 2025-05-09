@@ -102,21 +102,7 @@ function App() {
       fragancia_referencia: "La Vie Est Belle de Lancôme",
       descripcion: 'Es una fragancia de la familia olfativa Floral Frutal para Mujeres. Esta fragrancia es nueva. La Vivacité se lanzó en 2024.'
     },
-    {
-      id: 5,
-      marca: 'Maison Alhambra',
-      nombre: 'Florence 30 EDP',
-      imagen: 'https://i.imgur.com/ov2EU8o.png',
-      precio: 20000,
-      notas: {
-        salida: ['bergamota','durazno','Frutas rojas'],
-        corazon: ['Corazón son azucena','jazmín', 'rosa'],
-        fondo: ['almizcle', 'pachulí', 'vainilla']
-      },
-      genero: 'Mujer',
-      fragancia_referencia: "Valentino Donna de Valentino",
-      descripcion: 'Es una fragancia de la familia olfativa Floral para Mujeres. Florence se lanzó en 2022.'
-    },
+    
     {
       id: 6,
       marca: 'Maison Alhambra',
