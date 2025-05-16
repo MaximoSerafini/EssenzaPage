@@ -73,21 +73,6 @@ function App() {
       descripcion: 'Es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres. Esta fragrancia es nueva. Noble Blush se lanzó en 2024.'
     },
     {
-      id: 3,
-      marca: 'Afnan',
-      nombre: '9 PM Rebel 100ml EDP',
-      imagen: 'https://i.imgur.com/bW3ss7b.png',
-      precio: 70000,
-      notas: {
-        salida: ['piña','manzana Granny Smith','mandarina'],
-        corazon: ['vainilla','cedro', 'musgo de roble'],
-        fondo: ['ámbar gris', 'madera seca', 'caramelo']
-      },
-      genero: 'Hombre',
-      fragancia_referencia: "Ultra Male de Jean Paul Gaultier",
-      descripcion: 'Es una fragancia de la familia olfativa Aromática Frutal para Hombres y Mujeres. Esta fragrancia es nueva. 9 PM Rebel se lanzó en 2024. La Nariz detrás de esta fragrancia es Gaël Montero.'
-    },
-    {
       id: 4,
       marca: 'Maison Alhambra',
       nombre: 'La Vivacité 30 EDP',
