@@ -164,6 +164,22 @@ function App() {
       descripcion: 'Aroma tierno y delicado, perfecto para ocasiones especiales.',
       sinDescuento: true
     },
+    {
+      id: 17,
+      marca: 'Perfumeros',
+      nombre: 'Perfumeros',
+      imagen: 'https://i.imgur.com/yMxitsz.png',
+      precio: 3500,
+      notas: {
+        salida: [''],
+        corazon: [''],
+        fondo: ['']
+      },
+      genero: 'Unisex',
+      fragancia_referencia: "",
+      descripcion: 'Disfruta de llevar tus perfume favorito a todos lados',
+      sinDescuento: true
+    },
 
   ];
   const marcas = Array.from(new Set(perfumes.map(p => p.marca)));
