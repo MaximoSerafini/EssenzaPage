@@ -87,7 +87,6 @@ function App() {
       fragancia_referencia: "La Vie Est Belle de Lancôme",
       descripcion: 'Es una fragancia de la familia olfativa Floral Frutal para Mujeres. Esta fragrancia es nueva. La Vivacité se lanzó en 2024.'
     },
-    
     {
       id: 6,
       marca: 'Maison Alhambra',
@@ -178,6 +177,118 @@ function App() {
       genero: 'Unisex',
       fragancia_referencia: "",
       descripcion: 'Disfruta de llevar tus perfume favorito a todos lados',
+      sinDescuento: true
+    },
+    {
+      id: 18,
+      marca: 'Maison Alhambra',
+      nombre: 'B.A.D. Femme 100mlDP',
+      imagen: 'https://i.imgur.com/He6oGQU.png', 
+      precio: 28297,
+      notas: {
+        salida: ['Bergamota', 'Almendra', 'Café', 'Limón'],
+        corazon: ['Nardos', 'Rosa de Bulgaria', 'Flor de azahar', 'Jazmín sambac', 'Raíz de lirio'],
+        fondo: ['Haba tonka', 'Vainilla', 'Cacao', 'Almizcle', 'Madera de cachemira', 'Sándalo', 'Praliné', 'Cedro', 'Ámbar', 'Pachulí', 'Canela']
+      },
+      genero: 'Mujer',
+      fragancia_referencia: "Good Girl de Carolina Herrera",
+      descripcion: 'Ideal para dejar una huella dulce, intensa y sofisticada. Porque ser B.A.D. también es un arte. Es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres. B.A.D. Femme se lanzó en 2022.',
+      sinDescuento: true
+    },
+    {
+      id: 19,
+      marca: 'Maison Alhambra',
+      nombre: 'My Party 100ml EDP',
+      imagen: 'https://i.imgur.com/vlZWvR5.png', 
+      precio: 24255,
+      notas: {
+        salida: ['Fresa', 'Frambuesa', 'Naranja', 'Pera', 'Mandarina', 'Bergamota'],
+        corazon: ['Jazmín', 'Jazmín sambac', 'Datura', 'Flor de azahar del naranjo'],
+        fondo: ['Pachulí', 'Vainilla', 'Musgo', 'Cedro']
+      },
+      genero: 'Mujer',
+      fragancia_referencia: "Mon Paris de Yves Saint Laurent",
+      descripcion: 'Dulce, juvenil y adictiva. My Party es la fragancia perfecta para quienes aman los aromas románticos con un toque atrevido. Un homenaje al amor apasionado, ideal para cualquier ocasión especial… o para hacerla especial. Ideal para las que quieren destacar con un aroma dulce, moderno y encantador.',
+      sinDescuento: true
+    },
+    {
+      id: 20,
+      marca: 'Maison Alhambra',
+      nombre: 'Pink Shimmer Secret 100ml EDP',
+      imagen: 'https://i.imgur.com/C5X8oia.png', 
+      precio: 22233,
+      notas: {
+        salida: ['Piña', 'Toronja', 'Fresa'],
+        corazon: ['Peonía', 'Bayas rojas', 'Orquídea', 'Azucena', 'Jazmín'],
+        fondo: ['Musgo de roble', 'Notas amaderadas', 'Almizcle']
+      },
+      genero: 'Mujer',
+      fragancia_referencia: "Pink Warm & Cozy de Victoria's Secret",
+      descripcion: 'Dulce, cálido y relajado. Pink Shimmer Secret captura la esencia de una tarde de sol, entre risas, frescura frutal y suavidad floral. Ideal para quienes aman los perfumes jóvenes, cómodos y "cozy".',
+      sinDescuento: true
+    },
+    {
+      id: 21,
+      marca: 'Maison Alhambra',
+      nombre: 'Rose Seduction Vip Pour Femme 100ml EDP',
+      imagen: 'https://i.imgur.com/Or5Mvso.png', 
+      precio: 22840,
+      notas: {
+        salida: ['Pimienta rosa', 'Champagne rosé'],
+        corazon: ['Rosa', 'Flor del duraznero'],
+        fondo: ['Almizcle blanco', 'Notas amaderadas']
+      },
+      genero: 'Mujer',
+      fragancia_referencia: "212 VIP Rosé de Carolina Herrera",
+      descripcion: 'Elegante, vibrante y femenina, Rose Seduction Vip combina el brillo de una copa de champagne con la suavidad floral de la rosa. Un perfume moderno y sofisticado, perfecto para robar todas las miradas. Ideal para salidas nocturnas, eventos elegantes o una cita especial. Sofisticada, pero con un toque sexy y alegre.',
+      sinDescuento: true
+    },
+    {
+      id: 22,
+      marca: 'Maison Alhambra',
+      nombre: 'La Voie 100ml EDP',
+      imagen: 'https://i.imgur.com/bnKDRXD.png', 
+      precio: 30925,
+      notas: {
+        salida: ['Flor de azahar del naranjo', 'Bergamota'],
+        corazon: ['Nardos', 'Jazmín de la India'],
+        fondo: ['Vainilla de Madagascar', 'Almizcle blanco', 'Cedro de Virginia']
+      },
+      genero: 'Mujer',
+      fragancia_referencia: "My Way de Giorgio Armani",
+      descripcion: 'Auténtica, luminosa y femenina, La Voie celebra los nuevos comienzos y la conexión con uno mismo. Un aroma elegante y radiante que transmite sensibilidad, ideal para mujeres con espíritu libre y decidido. Perfecta para el día a día, reuniones importantes o encuentros especiales donde querés transmitir confianza y frescura.',
+      sinDescuento: true
+    },
+    {
+      id: 23,
+      marca: 'Maison Alhambra',
+      nombre: 'Panther Pour Homme 100ml EDP',
+      imagen: 'https://i.imgur.com/LQ3E27a.png', 
+      precio: 23850,
+      notas: {
+        salida: ['Entusiasmo de limón', 'Limón de Amalfi', 'Lavanda'],
+        corazon: ['Lavanda', 'Notas terrosas', 'Pachulí', 'Manzana', 'Humo'],
+        fondo: ['Vainilla', 'Lavanda', 'Vetiver']
+      },
+      genero: 'Hombre',
+      fragancia_referencia: "Phantom de Paco Rabanne",
+      descripcion: 'Moderno, atrevido y lleno de energía. Panther Pour Homme es la fusión perfecta entre lo clásico y lo futurista, con una vibra magnética que no pasa desapercibida. Una fragancia masculina con carácter, pensada para destacar. Ideal para el día a día, oficina o salidas informales, cuando querés oler bien, fresco y con un toque de originalidad.',
+      sinDescuento: true
+    },
+    {
+      id: 24,
+      marca: 'Maison Alhambra',
+      nombre: 'Jean Lowe Fraiche 100ml EDP',
+      imagen: 'https://i.imgur.com/xa8yGJW.png', 
+      precio: 23042,
+      notas: {
+        salida: ['Pétalos de rosa', 'Caramelo'],
+        corazon: ['Jazmín', 'Cacao', 'Madera de agar (oud)'],
+        fondo: ['Cuero', 'Ámbar', 'Vainilla']
+      },
+      genero: 'Unisex',
+      fragancia_referencia: "Nouveau Monde de Louis Vuitton",
+      descripcion: 'Exótica, sofisticada y envolvente. Jean Lowe Fraiche captura el espíritu aventurero de Nouveau Monde, combinando dulzura, especias y una sensualidad profunda. Una fragancia unisex con carácter, perfecta para quienes quieren dejar huella con elegancia y misterio. Ideal para eventos elegantes, salidas nocturnas o momentos especiales, donde se busca destacar con un aroma sofisticado, sensual y memorable.',
       sinDescuento: true
     },
 
