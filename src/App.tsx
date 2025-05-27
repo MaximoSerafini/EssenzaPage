@@ -103,36 +103,6 @@ function App() {
       descripcion: 'Fragancia amaderada y fresca, con notas masculinas y sofisticadas, ideal para hombres de carácter fuerte.'
     },
     {
-      id: 7,
-      marca: 'Armaf',
-      nombre: 'Club de nuit woman 100ml EDP',
-      imagen: 'https://i.imgur.com/9WSFf35.png',
-      precio: 56000,
-      notas: {
-        salida: ['Naranja', 'Bergamota', 'toronja'],
-        corazon: ['rosa', 'jazmin', 'lichi'],
-        fondo: ['pachulí', 'amizcle', 'vainilla']
-      },
-      genero: 'Mujer',
-      fragancia_referencia: "Chanel – Coco Mademoiselle",
-      descripcion: 'Es una fragancia de la familia olfativa Floral Frutal para Mujeres.'
-    },
-    {
-      id: 9,
-      marca: 'Lattafa',
-      nombre: 'Her Confession 100ml EDP',
-      imagen: 'https://i.imgur.com/KjScRvk.png',
-      precio: 60000,
-      notas: {
-        salida: ['Mistico', 'canela'],
-        corazon: ['nardos', 'incienso', 'jazmin'],
-        fondo: ['haba tonka', 'vainilla', 'almizcle']
-      },
-      genero: 'Mujer',
-      fragancia_referencia: "-",
-      descripcion: 'Es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Her Confession se lanzó en 2024'
-    },
-    {
       id: 10,
       marca: 'Lattafa',
       nombre: 'Haya',
