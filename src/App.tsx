@@ -154,7 +154,7 @@ function App() {
       marca: 'Maison Alhambra',
       nombre: 'B.A.D. Femme 100mlDP',
       imagen: 'https://i.imgur.com/He6oGQU.png', 
-      precio: 28297,
+      precio: 30000,
       notas: {
         salida: ['Bergamota', 'Almendra', 'Café', 'Limón'],
         corazon: ['Nardos', 'Rosa de Bulgaria', 'Flor de azahar', 'Jazmín sambac', 'Raíz de lirio'],
@@ -170,7 +170,7 @@ function App() {
       marca: 'Maison Alhambra',
       nombre: 'My Party 100ml EDP',
       imagen: 'https://i.imgur.com/vlZWvR5.png', 
-      precio: 24255,
+      precio: 26000,
       notas: {
         salida: ['Fresa', 'Frambuesa', 'Naranja', 'Pera', 'Mandarina', 'Bergamota'],
         corazon: ['Jazmín', 'Jazmín sambac', 'Datura', 'Flor de azahar del naranjo'],
@@ -186,7 +186,7 @@ function App() {
       marca: 'Maison Alhambra',
       nombre: 'Pink Shimmer Secret 100ml EDP',
       imagen: 'https://i.imgur.com/C5X8oia.png', 
-      precio: 22233,
+      precio: 25000,
       notas: {
         salida: ['Piña', 'Toronja', 'Fresa'],
         corazon: ['Peonía', 'Bayas rojas', 'Orquídea', 'Azucena', 'Jazmín'],
@@ -202,7 +202,7 @@ function App() {
       marca: 'Maison Alhambra',
       nombre: 'Rose Seduction Vip Pour Femme 100ml EDP',
       imagen: 'https://i.imgur.com/Or5Mvso.png', 
-      precio: 22840,
+      precio: 25000,
       notas: {
         salida: ['Pimienta rosa', 'Champagne rosé'],
         corazon: ['Rosa', 'Flor del duraznero'],
@@ -218,7 +218,7 @@ function App() {
       marca: 'Maison Alhambra',
       nombre: 'La Voie 100ml EDP',
       imagen: 'https://i.imgur.com/bnKDRXD.png', 
-      precio: 30925,
+      precio: 32000,
       notas: {
         salida: ['Flor de azahar del naranjo', 'Bergamota'],
         corazon: ['Nardos', 'Jazmín de la India'],
@@ -234,7 +234,7 @@ function App() {
       marca: 'Maison Alhambra',
       nombre: 'Panther Pour Homme 100ml EDP',
       imagen: 'https://i.imgur.com/LQ3E27a.png', 
-      precio: 23850,
+      precio: 25000,
       notas: {
         salida: ['Entusiasmo de limón', 'Limón de Amalfi', 'Lavanda'],
         corazon: ['Lavanda', 'Notas terrosas', 'Pachulí', 'Manzana', 'Humo'],
@@ -250,7 +250,7 @@ function App() {
       marca: 'Maison Alhambra',
       nombre: 'Jean Lowe Fraiche 100ml EDP',
       imagen: 'https://i.imgur.com/xa8yGJW.png', 
-      precio: 23042,
+      precio: 26000,
       notas: {
         salida: ['Pétalos de rosa', 'Caramelo'],
         corazon: ['Jazmín', 'Cacao', 'Madera de agar (oud)'],
