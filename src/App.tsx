@@ -154,7 +154,7 @@ function App() {
       marca: 'Maison Alhambra',
       nombre: 'B.A.D. Femme 100mlDP',
       imagen: 'https://i.imgur.com/He6oGQU.png', 
-      precio: 30000,
+      precio: 29000,
       notas: {
         salida: ['Bergamota', 'Almendra', 'Café', 'Limón'],
         corazon: ['Nardos', 'Rosa de Bulgaria', 'Flor de azahar', 'Jazmín sambac', 'Raíz de lirio'],
@@ -227,22 +227,6 @@ function App() {
       genero: 'Mujer',
       fragancia_referencia: "My Way de Giorgio Armani",
       descripcion: 'Auténtica, luminosa y femenina, La Voie celebra los nuevos comienzos y la conexión con uno mismo. Un aroma elegante y radiante que transmite sensibilidad, ideal para mujeres con espíritu libre y decidido. Perfecta para el día a día, reuniones importantes o encuentros especiales donde querés transmitir confianza y frescura.',
-      sinDescuento: true
-    },
-    {
-      id: 23,
-      marca: 'Maison Alhambra',
-      nombre: 'Panther Pour Homme 100ml EDP',
-      imagen: 'https://i.imgur.com/LQ3E27a.png', 
-      precio: 25000,
-      notas: {
-        salida: ['Entusiasmo de limón', 'Limón de Amalfi', 'Lavanda'],
-        corazon: ['Lavanda', 'Notas terrosas', 'Pachulí', 'Manzana', 'Humo'],
-        fondo: ['Vainilla', 'Lavanda', 'Vetiver']
-      },
-      genero: 'Hombre',
-      fragancia_referencia: "Phantom de Paco Rabanne",
-      descripcion: 'Moderno, atrevido y lleno de energía. Panther Pour Homme es la fusión perfecta entre lo clásico y lo futurista, con una vibra magnética que no pasa desapercibida. Una fragancia masculina con carácter, pensada para destacar. Ideal para el día a día, oficina o salidas informales, cuando querés oler bien, fresco y con un toque de originalidad.',
       sinDescuento: true
     },
     {
