@@ -150,22 +150,6 @@ function App() {
       sinDescuento: true
     },
     {
-      id: 18,
-      marca: 'Maison Alhambra',
-      nombre: 'B.A.D. Femme 100mlDP',
-      imagen: 'https://i.imgur.com/He6oGQU.png', 
-      precio: 29000,
-      notas: {
-        salida: ['Bergamota', 'Almendra', 'Café', 'Limón'],
-        corazon: ['Nardos', 'Rosa de Bulgaria', 'Flor de azahar', 'Jazmín sambac', 'Raíz de lirio'],
-        fondo: ['Haba tonka', 'Vainilla', 'Cacao', 'Almizcle', 'Madera de cachemira', 'Sándalo', 'Praliné', 'Cedro', 'Ámbar', 'Pachulí', 'Canela']
-      },
-      genero: 'Mujer',
-      fragancia_referencia: "Good Girl de Carolina Herrera",
-      descripcion: 'Ideal para dejar una huella dulce, intensa y sofisticada. Porque ser B.A.D. también es un arte. Es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres. B.A.D. Femme se lanzó en 2022.',
-      sinDescuento: true
-    },
-    {
       id: 19,
       marca: 'Maison Alhambra',
       nombre: 'My Party 100ml EDP',
