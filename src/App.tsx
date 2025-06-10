@@ -229,7 +229,102 @@ function App() {
       descripcion: 'Exótica, sofisticada y envolvente. Jean Lowe Fraiche captura el espíritu aventurero de Nouveau Monde, combinando dulzura, especias y una sensualidad profunda. Una fragancia unisex con carácter, perfecta para quienes quieren dejar huella con elegancia y misterio. Ideal para eventos elegantes, salidas nocturnas o momentos especiales, donde se busca destacar con un aroma sofisticado, sensual y memorable.',
       sinDescuento: true
     },
-
+    {
+      id: 25,
+      marca: 'Maison Alhambra',
+      nombre: 'Avant 100ml EDP',
+      imagen: 'https://i.imgur.com/w6gIGwg.png',
+      precio: 27000,
+      notas: {
+        salida: ['Notas verdes', 'Bergamota', 'Limón'],
+        corazon: ['Pimienta negra', 'Jazmín', 'Lavanda'],
+        fondo: ['Vetiver', 'Pachulí', 'Almizcle']
+      },
+      genero: 'Hombre',
+      fragancia_referencia: "Creed Aventus",
+      descripcion: 'Versátil. Ideal para el día, salidas o eventos. Aroma masculino, elegante y seguro. Deja huella sin exagerar.',
+      sinDescuento: true
+    },
+    {
+      id: 26,
+      marca: 'Maison Alhambra',
+      nombre: 'Salvo Elixir 100ml EDP',
+      imagen: 'https://i.imgur.com/tVQeQ8A.png',
+      precio: 25000,
+      notas: {
+        salida: ['Pimienta negra', 'Tabaco', 'Piña'],
+        corazon: ['Pachulí', 'Café', 'Iris'],
+        fondo: ['Vainilla', 'Maderas', 'Ámbar', 'Benjuí', 'Ládano']
+      },
+      genero: 'Hombre',
+      fragancia_referencia: "Sauvage Elixir – Dior",
+      descripcion: 'Ideal para la noche, salidas o clima fresco. Intensa, misteriosa y seductora. Deja presencia fuerte y duradera.',
+      sinDescuento: true
+    },
+    {
+      id: 27,
+      marca: 'Maison Alhambra',
+      nombre: 'Jorge di Profondo 100ml EDP',
+      imagen: 'https://i.imgur.com/CTUTLtC.jpeg',
+      precio: 30000,
+      notas: {
+        salida: ['Aquozone', 'Notas marinas', 'Bergamota', 'Mandarina verde'],
+        corazon: ['Romero', 'Lavanda', 'Ciprés', 'Lentisco'],
+        fondo: ['Notas minerales', 'Almizcle', 'Ámbar', 'Pachulí']
+      },
+      genero: 'Hombre',
+      fragancia_referencia: "Acqua di Giò Profondo – Armani",
+      descripcion: 'Ideal para el día, oficina o clima cálido. Fresca, limpia y profesional. Transmite elegancia relajada.',
+      sinDescuento: true
+    },
+    {
+      id: 28,
+      marca: 'Maison Alhambra',
+      nombre: 'Dark Door Sport 100ml EDP',
+      imagen: 'https://i.imgur.com/GsOmOMD.png',
+      precio: 36000,
+      notas: {
+        salida: ['Pomelo', 'Limón', 'Resina de elemí', 'Bergamota'],
+        corazon: ['Jengibre', 'Cedro', 'Vetiver'],
+        fondo: ['Lavanda', 'Romero', 'Sándalo']
+      },
+      genero: 'Hombre',
+      fragancia_referencia: "Dior Homme Sport",
+      descripcion: 'Perfecto para el día, entrenar o climas cálidos. Energética, fresca y moderna. Transmite vitalidad con elegancia.',
+      sinDescuento: true
+    },
+    {
+      id: 29,
+      marca: 'Maison Alhambra',
+      nombre: 'Your Touch 100ml EDP',
+      imagen: 'https://i.imgur.com/yQvpAAk.png',
+      precio: 25000,
+      notas: {
+        salida: ['Frambuesa', 'Limón', 'Naranja'],
+        corazon: ['Rosa'],
+        fondo: ['Vainilla', 'Almizcle', 'Amberwood']
+      },
+      genero: 'Mujer',
+      fragancia_referencia: "Because It's You – Armani",
+      descripcion: 'Ideal para el día, citas o uso diario romántico. Dulce, femenina y envolvente. Aporta calidez y encanto.',
+      sinDescuento: true
+    },
+    {
+      id: 30,
+      marca: 'Maison Alhambra',
+      nombre: 'Jean Lowe Imórtala 100ml EDP',
+      imagen: 'https://i.imgur.com/jqzDhEk.png', // You'll need to add the actual image URL
+      precio: 34000,
+      notas: {
+        salida: ['Bergamota', 'Lavanda', 'Neroli'],
+        corazon: ['Jazmín', 'Rosa', 'Iris'],
+        fondo: ['Vainilla', 'Ámbar', 'Sándalo']
+      },
+      genero: 'Mujer',
+      fragancia_referencia: "Imórtala – Louis Vuitton",
+      descripcion: 'Elegante, sofisticada y femenina. Perfecta para ocasiones especiales y eventos formales. Transmite lujo y distinción.',
+      sinDescuento: true
+    },
   ];
   const marcas = Array.from(new Set(perfumes.map(p => p.marca)));
 
