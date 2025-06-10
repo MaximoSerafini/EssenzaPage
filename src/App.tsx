@@ -314,13 +314,13 @@ function App() {
       marca: 'Maison Alhambra',
       nombre: 'Jean Lowe Inmortal 100ml EDP',
       imagen: 'https://i.imgur.com/jqzDhEk.png', // You'll need to add the actual image URL
-      precio: 34000,
+      precio: 36000,
       notas: {
         salida: ['Bergamota', 'Lavanda', 'Neroli'],
         corazon: ['Jazmín', 'Rosa', 'Iris'],
         fondo: ['Vainilla', 'Ámbar', 'Sándalo']
       },
-      genero: 'Mujer',
+      genero: 'Hombre',
       fragancia_referencia: " L’Immensité – Louis Vuitton",
       descripcion: 'Elegante, sofisticada y femenina. Perfecta para ocasiones especiales y eventos formales. Transmite lujo y distinción.',
       sinDescuento: true
