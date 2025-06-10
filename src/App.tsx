@@ -58,21 +58,6 @@ function App() {
       descripcion: 'Es una fragancia de la familia olfativa Amaderada Aromática para Hombres y Mujeres. Esta fragrancia es nueva. Badee Al Oud Sublime se lanzó en 2023.'
     },
     {
-      id: 2,
-      marca: 'Lattafa',
-      nombre: 'Noble Blush 100ml EDP',
-      imagen: 'https://i.imgur.com/GfoMEUV.png',
-      precio: 60000,
-      notas: {
-        salida: ['Rose Milk'],
-        corazon: ['Merengue', 'Almendra'],
-        fondo: ['vainilla', 'almizcle', 'sándalo']
-      },
-      genero: 'Mujer',
-      fragancia_referencia: "Guidance de Amouage",
-      descripcion: 'Es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres. Esta fragrancia es nueva. Noble Blush se lanzó en 2024.'
-    },
-    {
       id: 4,
       marca: 'Maison Alhambra',
       nombre: 'La Vivacité 30 EDP',
@@ -245,22 +230,7 @@ function App() {
       descripcion: 'Versátil. Ideal para el día, salidas o eventos. Aroma masculino, elegante y seguro. Deja huella sin exagerar.',
       sinDescuento: true
     },
-    {
-      id: 26,
-      marca: 'Maison Alhambra',
-      nombre: 'Salvo Elixir 100ml EDP',
-      imagen: 'https://i.imgur.com/tVQeQ8A.png',
-      precio: 25000,
-      notas: {
-        salida: ['Pimienta negra', 'Tabaco', 'Piña'],
-        corazon: ['Pachulí', 'Café', 'Iris'],
-        fondo: ['Vainilla', 'Maderas', 'Ámbar', 'Benjuí', 'Ládano']
-      },
-      genero: 'Hombre',
-      fragancia_referencia: "Sauvage Elixir – Dior",
-      descripcion: 'Ideal para la noche, salidas o clima fresco. Intensa, misteriosa y seductora. Deja presencia fuerte y duradera.',
-      sinDescuento: true
-    },
+
     {
       id: 27,
       marca: 'Maison Alhambra',
@@ -307,22 +277,6 @@ function App() {
       genero: 'Mujer',
       fragancia_referencia: "Because It's You – Armani",
       descripcion: 'Ideal para el día, citas o uso diario romántico. Dulce, femenina y envolvente. Aporta calidez y encanto.',
-      sinDescuento: true
-    },
-    {
-      id: 30,
-      marca: 'Maison Alhambra',
-      nombre: 'Jean Lowe Inmortal 100ml EDP',
-      imagen: 'https://i.imgur.com/jqzDhEk.png', // You'll need to add the actual image URL
-      precio: 36000,
-      notas: {
-        salida: ['Bergamota', 'Lavanda', 'Neroli'],
-        corazon: ['Jazmín', 'Rosa', 'Iris'],
-        fondo: ['Vainilla', 'Ámbar', 'Sándalo']
-      },
-      genero: 'Hombre',
-      fragancia_referencia: " L’Immensité – Louis Vuitton",
-      descripcion: 'Elegante, sofisticada y femenina. Perfecta para ocasiones especiales y eventos formales. Transmite lujo y distinción.',
       sinDescuento: true
     },
   ];
