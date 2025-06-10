@@ -312,7 +312,7 @@ function App() {
     {
       id: 30,
       marca: 'Maison Alhambra',
-      nombre: 'Jean Lowe Imórtala 100ml EDP',
+      nombre: 'Jean Lowe Inmortal 100ml EDP',
       imagen: 'https://i.imgur.com/jqzDhEk.png', // You'll need to add the actual image URL
       precio: 34000,
       notas: {
@@ -321,7 +321,7 @@ function App() {
         fondo: ['Vainilla', 'Ámbar', 'Sándalo']
       },
       genero: 'Mujer',
-      fragancia_referencia: "Imórtala – Louis Vuitton",
+      fragancia_referencia: " L’Immensité – Louis Vuitton",
       descripcion: 'Elegante, sofisticada y femenina. Perfecta para ocasiones especiales y eventos formales. Transmite lujo y distinción.',
       sinDescuento: true
     },
