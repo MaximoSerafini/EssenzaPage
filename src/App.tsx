@@ -43,21 +43,6 @@ function App() {
 
   const perfumes: Perfume[] = [
     {
-      id: 1,
-      marca: 'Lattafa',
-      nombre: 'Badee Al Oud Sublime 100ml EDP',
-      imagen: 'https://i.imgur.com/6onMEB2.png',
-      precio: 60000,
-      notas: {
-        salida: ['Manzana', 'Lichi', 'Rosa'],
-        corazon: ['ciruela', 'jazmín'],
-        fondo: ['vainila', 'musgo', 'pachulí']
-      },
-      genero: 'Mujer',
-      fragancia_referencia: "Eden Juicy Apple",
-      descripcion: 'Es una fragancia de la familia olfativa Amaderada Aromática para Hombres y Mujeres. Esta fragrancia es nueva. Badee Al Oud Sublime se lanzó en 2023.'
-    },
-    {
       id: 4,
       marca: 'Maison Alhambra',
       nombre: 'La Vivacité 30 EDP',
